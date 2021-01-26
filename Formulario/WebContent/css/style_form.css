@@ -1,0 +1,110 @@
+*{
+    font-family: Arial;
+    font-size: 12px;
+}
+.wrapper{
+    width: 95%;
+    margin: 15px 2.5%;
+    
+    float: left;
+    background-color: #f9f8f6;
+}
+form{
+    width: 99%;
+    padding: 0 0.5%;
+}
+.negrita{
+    font-weight: bold;
+}
+header{
+    background-color: #e1e2dd;
+    margin-bottom: 10px;
+}
+
+header h1{
+    margin:0px;
+    text-align: center;
+    font-size: 18px;
+}
+fieldset{
+    border:none;
+    margin-bottom: 10px;
+}
+legend{
+    border: solid 2px;
+    background-color: white;
+}
+/*Formato cajas formulario*/
+#grey{
+    background-color: #e1e2dd;
+    
+}
+#grey>legend{
+    border-color: #e1e2dd; ;
+}
+
+#light{
+    background-color: #fcf9d7;
+
+}
+#light>legend{
+    border-color: #fcf9d7 ;
+}
+
+#blue{
+    background-color: #9bcdd3;
+
+}
+#blue>legend{
+    border-color: #9bcdd3 ;
+}
+#pink{
+    background-color: #efa5ad;
+}
+#pink>legend{
+    border-color: #efa5ad;
+}
+#orange{
+    background-color: #fadbb5;
+}
+#orange>legend{
+    border-color: #fadbb5;
+}
+/*Formato clases, ids det. y otros*/
+.tipos_directo_ra{
+    list-style-type: none;
+    padding-left:18px;
+    margin:0px;
+}
+ul{
+    padding-left:25px;
+    
+}
+
+#reg_entrada{
+    width:25%;
+    margin:0 px;
+    padding: 0 px;
+    float:right;
+    min-height: 100px;
+    background-color: white;
+    border: black solid 1px;
+    text-align: center;
+    font-size: 9px;
+}
+
+
+#final-box{
+   
+    border: black dashed 1px ;
+    font-size: 9px !important;
+    padding: 1px;
+    margin: 7px 0;
+}
+
+h3{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding:10px 0;
+}

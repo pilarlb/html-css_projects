@@ -1,0 +1,199 @@
+* {
+    font-family: 'coolvetica';
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 95%;
+    padding: 0 2.5%;
+}
+
+@font-face {
+	font-family: 'coolvetica';
+	src: url('../fonts/coolvetica rg.eot');
+	src: local('☺'), url('../fonts/coolvetica rg.woff') format('woff'), url('../fonts/coolvetica rg.ttf') format('truetype'), url('../fonts/coolvetica rg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* HEADER------------------*/
+header{
+    width: 100%;
+    float: left;
+}
+.logo {
+    float: left;
+    width: 21%;
+    margin-left: 2%;
+    padding-top: 20px;
+     
+}
+.logo img {
+    max-width: 50%;
+}
+
+.main_title {
+    width: 60%;
+    padding: 20px 0;
+    float: left;
+}
+
+.font-1{
+    font-size: 2.81em;
+}
+.font-2{
+    font-size: 1.56em;
+}
+
+.social-icons{
+    width: 15%;
+    margin-right: 2%;
+    padding: 20px 0;
+    float: left;
+}
+.social-icons img{
+    max-height: 30px;
+}
+/*NAV ----------------*/
+
+nav{
+    width: 100%;
+    float: left;
+}
+ul.topnav {
+    font-size:1.2em;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*FORMULARIO-------------------*/
+  main{
+      width: 100%;
+      float: left;
+      background-image: linear-gradient(to right,rgb(173, 239, 247) , rgb(255, 150, 248));
+  }
+  .container{
+      padding: 30px 33%;
+      float: left;
+  }
+  .page-title{
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+    font-size: 2em;
+    text-align: center;
+}
+  
+  .container h4{
+    color:#333;
+    margin-bottom: 20px;
+    font-weight: unset;
+  }
+  .container fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+    min-width: 100%;
+	padding: 0;
+    }  
+
+ .container input{
+    width: 100%;
+    height: 40px;
+}
+.container textarea{
+    width: 100%;
+    height: 80px;
+}
+ #contact button[type="submit"] {
+        cursor:pointer;
+        width:100%;
+        border:none;
+        background:#0CF;
+        color:#FFF;
+        margin:0 0 5px;
+        padding:10px;
+        font-size:15px;
+    }
+
+/*Footer de la web----------*/
+body> footer {
+    width: 100%;
+    font-size: 1.2em;
+    background-color:  #333;
+    color: rgb(185, 194, 204);
+    float: left;
+  }
+  a{
+      color: unset;
+      text-decoration: none;
+  }
+  footer> .col25{
+      width: 27.5%;
+      float: left;
+      padding: 20px 0 0 2.5%;
+      height: 200px;
+      letter-spacing: 1px;
+  }
+  footer> .col75{
+      width: 67.5%;
+      float: left;
+      padding: 20px 2.5% 0 0  ;
+  }
+  h5{
+      font-weight: unset;
+  }
+  /*MEDIA QUERIS-----------------NAV*/
+  @media screen and (max-width: 600px) {
+    
+    ul.topnav li {float: none;}
+
+    .logo img{
+        max-width: 100%;
+    }
+    .main_title {
+        width: 77%;
+        padding: 20px 0;
+        float: left;
+    }
+    .social-icons{
+        width: 100%;
+        margin: 0 30%;
+        padding-top:0;
+        padding-bottom: 20px;
+        float: left;
+    }
+    .container{
+        padding: 30px 0;
+        float: left;
+    }
+
+     /*MEDIA QUERIS FOOTER WEB*/
+     footer> .col25{
+        width: 95%;
+        float: left;
+        padding: 20px 2.5%;
+        height: 60px;
+        text-align: center;
+       
+    }
+    footer> .col75{
+        width: 95%;
+        float: left;
+        padding: 20px 2.5%;
+        text-align: center;
+}
+
+  }

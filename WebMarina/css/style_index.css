@@ -1,0 +1,260 @@
+* {
+    font-family: 'coolvetica';
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+@font-face {
+	font-family: 'coolvetica';
+	src: url('../fonts/coolvetica rg.eot');
+	src: local('☺'), url('../fonts/coolvetica rg.woff') format('woff'), url('../fonts/coolvetica rg.ttf') format('truetype'), url('../fonts/coolvetica rg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* HEADER------------------*/
+header{
+    width: 100%;
+    float: left;
+    }
+.logo {
+    float: left;
+    width: 21%;
+    margin-left: 2%;
+    padding-top: 20px;
+     
+}
+.logo img {
+    max-width: 50%;
+}
+
+.main_title {
+    width: 60%;
+    padding: 20px 0;
+    float: left;
+}
+
+.font-1{
+    font-size: 2.81em;
+}
+.font-2{
+    font-size: 1.56em;
+}
+
+.social-icons{
+    width: 15%;
+    margin-right: 2%;
+    padding: 20px 0;
+    float: left;
+}
+.social-icons img{
+    max-height: 30px;
+}
+/*NAV ----------------*/
+
+/*yo añadi lo de nav*/
+nav{
+    width: 100%;
+    float: left;
+}
+ul.topnav {
+    font-size:1.2em;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*Section-----------------------*/
+  section{
+    width: 61.5%;
+    margin: 0 1% 0 2.5%;
+    float: left;
+    }
+  .col3> header{
+    width: 100%;
+    float: left;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .col3> article{
+      width: 100%;
+      float: left;
+  }
+  .main_text{
+      padding: 20px 0;
+      text-align: left;
+  }
+
+  #firma_marina{
+    padding: 10px 0;
+    max-width: 50%;
+}
+  /*Footer Section----------------*/
+    .col3> footer{
+        width: 100%;
+        float: left;
+    }
+    .col60{
+        width: 56%;
+        margin: 10px 2%;
+        float: left;
+    }
+    .col40{
+        width: 40%;
+        float: left;
+    } 
+    
+    .box{
+        width: 100%;
+        margin: 10px 0;
+        font-size: 0.8em;
+        float: left;
+    }
+    .col-img{
+        width: 25%;
+        float: left;
+    }
+    .col-img img{
+        max-width: 100%;
+    }
+    .col-text{
+        width: 73%;
+        padding-left: 2%;
+        float: left;
+    }
+    h3.col-text{
+        margin: 15px 0;
+    }
+  /*Aside---------------------------*/
+    aside{
+    width: 31.5%;
+      margin: 0 1.5% 0 0;
+      float: left;
+    }
+    aside> .col1{
+        width: 100%;
+        float: left;
+        padding-left: 1%;
+      border-style: none none none solid;
+      border-color: #0CF;
+  
+  }
+  .col1>h2{
+      font-weight: unset;
+      text-align: center;
+      color: #333;
+  }
+  .col1 >.box{
+      font-size: 0.9em;
+      margin: 25px 0;
+  }
+  .col1> .box>.col-text > h3{
+      color: #333;
+      font-weight: unset;
+  }
+
+
+  /*Footer de web---------------------------*/
+  body> footer {
+    width: 100%;
+    font-size: 1.2em;
+    background-color:  #333;
+    color: rgb(185, 194, 204);
+    float: left;
+  }
+  a{
+      color: unset;
+      text-decoration: none;
+  }
+  footer> .col25{
+      width: 27.5%;
+      float: left;
+      padding: 20px 0 0 2.5%;
+      height: 200px;
+      letter-spacing: 1px;
+  }
+  footer> .col75{
+      width: 67.5%;
+      float: left;
+      padding: 20px 2.5% 0 0  ;
+  }
+  h5{
+      font-weight: unset;
+  }
+  /*MEDIA QUERIS-----------------NAV*/
+  @media screen and (max-width: 600px) {
+    
+    ul.topnav li {float: none;}
+
+    .logo img{
+        max-width: 100%;
+    }
+
+    .main_title {
+        width: 77%;
+        padding: 20px 0;
+        float: left;
+    }
+    .social-icons{
+        width: 100%;
+        margin: 0 30%;
+        padding-top:0;
+        padding-bottom: 20px;
+        float: left;
+    }
+    section{
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    
+    .col60,.col40{
+        width: 95%;
+        margin: 0 2.5%;
+        float: left;
+    }
+
+    aside{
+        width: 95%;
+        margin: 0 2.5% 0 0;
+        float: left;
+     }
+     aside> .col1{
+        padding-left: 2.5%;
+  }
+  /*MEDIA QUERIS FOOTER WEB*/
+    footer> .col25{
+        width: 95%;
+        float: left;
+        padding: 20px 2.5%;
+        height: 60px;
+        text-align: center;
+       
+    }
+    footer> .col75{
+        width: 95%;
+        float: left;
+        padding: 20px 2.5%;
+        text-align: center;
+}
+
+}
